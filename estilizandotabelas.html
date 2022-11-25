@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com tabelas - dio.me</title>
+    <style>
+        table {
+           -webkit-box-shadow: 12px 14px 6px 5px rgba(0,0,0,0.24);
+            box-shadow: 12px 14px 5px rgba(0,0,0,0.24);
+            border: solid 1px gray;
+        }
+        table thead th {
+            background-color: black;
+            color: white;
+        }
+        table tfoot td {
+            background-color: gray;
+        }
+        table tbody tr:nth-child(even) td {
+            background: lightgray;
+        }
+        table tbody tr:hover td {
+            background: lightslategray;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <table width="250" align="center" callspacing="0" cellpadding="5">
+       <tfoot>
+        <tr>
+            <td>Total</td>
+            <td>7</td>
+        </tr>
+       </tfoot>
+
+       <tbody>
+        <tr>
+            <td>Diego</td>
+            <td>32</td>
+        </tr>
+        <tr>
+            <td>Lucca</td>
+            <td>29</td>
+        </tr>
+        <tr>
+            <td>Bruno</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>Dimitri</td>
+            <td>26</td>
+        </tr>
+        <tr>
+            <td>Brian</td>
+            <td>22</td>
+        </tr>
+        <tr>
+            <td>Breno</td>
+            <td>23</td>
+        </tr>
+        <tr>
+            <td>Otávio</td>
+            <td>32</td>
+        </tr>
+       </tbody>
+
+       <thead>
+        <tr>
+            <th colspan="2">Minha tabela</th>
+        </tr>
+        <tr>
+            <th title="nome completo">Nome</th>
+            <th>Idade</th>
+        </tr>
+       </thead>
+   </table>      
+    </body>
+       </html>
+
+     
